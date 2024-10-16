@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-form">
+        <div class="info-form">
+            <h2>Contactanos</h2>
+            <p>Contactanos para mas informacion en nuestras redes sociales</p>
+            <a href="#"> <i class="fa fa-phone"></i>+591 69852365</a>
+            <a href="#"> <i class="fa fa-envelope"></i>+trujillo@gmail.com</a>
+            <a href="#"> <i class="fa fa-map-marked"></i>La Paz - Bolivia</a>
+        </div>
+         <form action="/contacto" method="POST" autocomplete="off">
+            <input type="text" placeholder="Ingrese Nombre Completo" name="nombre" class="campo"><br>
+            <input type="email" placeholder="Ingrese su correo" name="email" class="campo"><br>
+            <textarea type="text" placeholder="Mensaje" name="mensaje"></textarea><br>
+            <input type="submit" name="enviar" value="Enviar" class="enviar">
+            <a href="/" class="enviar-btn">Volver</a>
+        </form>
+    </div>
+</body>
+</html>
